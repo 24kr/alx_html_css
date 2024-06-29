@@ -6,31 +6,30 @@ body{
     background-image: url(Object.png);
     background-repeat: no-repeat;
 }
-header, nav{
-    padding: 2%;
-}
-            nav{
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    color: white;
-                }
+ nav{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    }
         
-                nav,ul {
-                    display: flex;
-                    list-style: none;
-                }
+    nav,ul {
+     display: flex;
+     list-style: none;
+    }
         
-                nav,ul,li {
-                    margin-right: 20px;
-                }
+  nav,ul,li {
+    margin-right: 20px;
+    }
         
-               
-        
-                nav,ul,li, a {
-                    text-decoration: none;
-                    color: white;
-                    font-size: 0.99em;
-                    transition: color 0.3s ease-in-out;
-                    font-family: ;
-                }
+    nav,ul,li, a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.99em;
+    transition: color 0.3s ease-in-out;
+    font-family: ;
+    }
+    nav, img{
+        margin-left: 1%;
+    }
