@@ -5,9 +5,12 @@
 body{
     background-image: url(Object.png);
     background-repeat: no-repeat;
+    padding: auto;
 }
- nav{
-    margin-top: 2%;
+header, nav{
+    padding:auto;
+}
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,21 +18,107 @@ body{
     }
         
     nav,ul {
-     display: flex;
-     list-style: none;
-    }
+    display: flex;
+    list-style: none;
+    margin-right: 0%;
+            }
         
-  nav,ul,li {
+    nav,ul,li {
     margin-right: 20px;
-    }
+        }
         
-    nav,ul,li, a {
+     nav,ul,li, a {
     text-decoration: none;
     color: white;
     font-size: 0.99em;
     transition: color 0.3s ease-in-out;
-    font-family: ;
-    }
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+        }
     nav, img{
         margin-left: 1%;
     }
+    main > .schooled,.alumni{
+        padding: 3%;
+        margin-top: 10em;
+        width: ;
+
+    }
+    .schooled{
+        display: block;
+    }
+    .schooled > button{
+        display: block;
+    }
+  .schooled > h1{
+    font-size: 6em;
+    width: 55%;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+  }
+  .schooled >.spn{
+    text-align: center;
+    word-spacing: 3em;
+
+  }
+  .schooled > button{
+    margin-top: 1em;
+    background-color: rgb(195, 113, 255);
+    padding: 1.2em;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 0.7em;
+  }
+  div > h2{
+    margin-top: 18%;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+  }
+div>h2 > span{
+    color:rgb(195, 113, 255) ;
+    font-weight: bold;
+}   
+.alumni{
+    display: flex;
+    width: inherit;
+    margin-top: 5%;
+    padding: auto;
+}
+.alumni>div>h3{
+    color: white;
+}
+.alumni>div>p{
+    max-width: 90%;
+}
+.section2{
+    background-color: rgb(195, 113, 255);
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    height: 15em;
+}
+.weather{
+    align-items: center;
+}
+.section3 {
+    display: block;
+    padding: 5%,10%,10%;
+}
+.play{
+    display: flex;
+}
+.profile{
+    display: flex;
+}
+.profile > img{
+    max-width: 40px;
+}
+.profile > h4{
+    margin-left: -5em;
+}
+.icon{
+    display: inline-block;
+}
