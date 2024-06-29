@@ -93,17 +93,32 @@ div>h2 > span{
 .alumni>div>p{
     max-width: 90%;
 }
-.weather{
+.section2{
     background-color: rgb(195, 113, 255);
     width: 100%;
     margin-top: 10%;
     display: flex;
     height: 15em;
 }
-.weather img{
-    margin-left: 20%;
-   
+.weather{
+    align-items: center;
 }
-.weather p{
-    margin-top: -50%;
+.section3 {
+    display: block;
+    padding: 5%,10%,10%;
+}
+.play{
+    display: flex;
+}
+.profile{
+    display: flex;
+}
+.profile > img{
+    max-width: 40px;
+}
+.profile > h4{
+    margin-left: -5em;
+}
+.icon{
+    display: inline-block;
 }
