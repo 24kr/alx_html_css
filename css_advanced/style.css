@@ -39,11 +39,13 @@ nav{
     nav, img{
         margin-left: 1%;
     }
-    main > .schooled,.alumni{
+    .section1 > .main-bottom > .alumni{
         padding: 3%;
-        margin-top: 10em;
-        width: ;
-
+        margin-top: 2em;
+        max-width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .schooled{
         display: block;
@@ -105,43 +107,69 @@ div > h2 > span{
 .alumni > div{
     max-width: 20%;
 }
-.alumni > div > p,h3{
+.alumni > div > p, h3{
     justify-content: center;
     align-items: center;
     display: flex;
+
+}
+.alumni > div > img{
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
                          /*This is where section II starts*/
 .section2{
     background-color: rgb(195, 113, 255);
     width: 100%;
-    margin-top: 10%;
+    margin-top: -1%;
     display: flex;
     height: 15em;
 }
-.weather{
-    align-items: center;
+.section2 > .person {
+    display: block;
+    margin: left -100px;
+
 }
+
                          /*This is where section III starts*/
 .section3 {
+    margin-top: -2em;
     display: block;
     padding: auto;
 }
 .play{
     display: flex;
     padding: 5%;
+    margin-top: -2em;
+    max-width: 75%;
+    gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+}
+.play > div > img[src="play.png"]{
+    display: flex;
+    margin-top:-7em;
+    margin-left: 6em;
 }
 .profile{
+    margin-top: 0.5em;
     display: flex;
+    color: rgb(195, 113, 255);
 }
 .profile > img{
-    max-width: 40px;
+    max-width: 30px;
 }
 .profile > h4{
-    margin-left: -5em;
+    margin-left: -10em;
+    font-size: 12px;
 }
 .icon{
-    display: inline-block;
+    margin-top: 1em;
+    display:inline-flex;
 }
 .section3 > h2{
     font-size:2em;
@@ -158,6 +186,7 @@ display: inline-block;
 background-color: rgb(7, 22, 41);
 width: 100%;
 content: inherit;
+color: white;
 }  
 .section4 > .membership, h2, button{
     padding: 2%;
@@ -173,14 +202,13 @@ content: inherit;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-top: 1em;
-        background-color: rgb(195, 113, 255);
-        padding: 1.2em;
-        border: none;
-        border-radius: 50px;
-        font-weight: bold;
-        color: white;
-        font-size: 0.7em;
+    background-color: rgb(195, 113, 255);
+    padding: 1.2em;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 0.7em;
 }
 
 
@@ -190,12 +218,13 @@ content: inherit;
     display: block;
     justify-content: center;
     align-items: center;
-    padding:2.5%;
+    padding:2%;
 }
 .grid-container{
     display:flex ;
     padding: 5em;
-    gap: 2em,2em;
+    gap: 2em;
+    margin-top: -3em;
 }
 
                          /*This is where section VI starts*/
