@@ -7,8 +7,9 @@ body{
     background-repeat: no-repeat;
     padding: auto;
 }
-header, nav{
+header{
     padding:auto;
+    margin-top: 2em;
 }
 nav{
     display: flex;
@@ -46,9 +47,18 @@ nav{
     }
     .schooled{
         display: block;
+        color: white;
+        margin-top: 15%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        font-family: Source Sans Pro;
     }
     .schooled > button{
         display: block;
+    }
+    .main-bottom{
+        margin-top: 10%;
     }
   .schooled > h1{
     font-size: 6em;
@@ -62,7 +72,7 @@ nav{
 
   }
   .schooled > button{
-    margin-top: 1em;
+    margin-top: 3em;
     background-color: rgb(195, 113, 255);
     padding: 1.2em;
     border: none;
@@ -72,27 +82,35 @@ nav{
     font-size: 0.7em;
   }
   div > h2{
-    margin-top: 18%;
     text-align: center;
     color: white;
     font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
-div>h2 > span{
+div > h2 > span{
     color:rgb(195, 113, 255) ;
     font-weight: bold;
 }   
 .alumni{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: inherit;
-    margin-top: 5%;
+    margin-top: 1%;
     padding: auto;
-}
-.alumni>div>h3{
     color: white;
 }
-.alumni>div>p{
-    max-width: 90%;
+.alumni > div{
+    max-width: 20%;
 }
+.alumni > div > p,h3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
                          /*This is where section II starts*/
 .section2{
     background-color: rgb(195, 113, 255);
