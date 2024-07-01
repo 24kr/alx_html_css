@@ -6,6 +6,7 @@ body{
     background-image: url(Object.png);
     background-repeat: no-repeat;
     padding: auto;
+    font-family: Source Sans Pro;
 }
 header{
     padding:auto;
@@ -31,13 +32,13 @@ nav{
      nav,ul,li, a {
     text-decoration: none;
     color: white;
-    font-size: 0.99em;
-    transition: color 0.3s ease-in-out;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    font-weight: bold;
+    font-size: 12px;
+    font-family:source sans pro;
+    font-weight:500;
+    margin-right: 2em;
         }
     nav, img{
-        margin-left: 1%;
+        margin-left: 6%;
     }
     .section1 > .main-bottom > .alumni{
         padding: 3%;
@@ -50,23 +51,24 @@ nav{
     .schooled{
         display: block;
         color: white;
-        margin-top: 15%;
+        margin-top: 13%;
         justify-content: center;
         align-items: center;
-        margin-left: 10%;
+        margin-left: 8%;
         font-family: Source Sans Pro;
     }
     .schooled > button{
         display: block;
     }
     .main-bottom{
-        margin-top: 10%;
+        margin-top: 12%;
     }
   .schooled > h1{
-    font-size: 6em;
+    font-size: 6.5em;
+    margin-left:;
     width: 55%;
     letter-spacing: 0.05em;
-    font-weight: bold;
+    font-weight:800;
   }
   .schooled >.spn{
     text-align: center;
@@ -113,9 +115,13 @@ div > h2 > span{
     display: flex;
 
 }
+.alumni>div>p{
+    font-weight: lighter;
+    font-style: oblique;
+}
 .alumni > div > img{
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 120px;
+    max-height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,15 +131,38 @@ div > h2 > span{
 .section2{
     background-color: rgb(195, 113, 255);
     width: 100%;
-    margin-top: -1%;
+    margin-top: -13.5px;
     display: flex;
-    height: 15em;
+    height: 20em;
 }
-.section2 > .person {
-    display: block;
-    margin: left -100px;
+.weather > img{
+    margin-left: 10em;
+}
+.person{
+    margin-left: -5em;
+    color: white;
+}
+.person> blockquote,h3,p {
+    display:block;
+    word-spacing: 2px;
+}
+.person > blockquote{
+    font-size: 22px;
+    font-weight: 300;
+    word-spacing: inherit;
+}
+.person > h3{
+    margin-top: 1.5em;
+    font-weight: 700;
+    font-size: 22.5px;
+}
+.person > p{
+    margin-top: 0.5em;
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 22.5px;
+}
 
-}
 
                          /*This is where section III starts*/
 .section3 {
@@ -185,6 +214,7 @@ div > h2 > span{
 display: inline-block;
 background-color: rgb(7, 22, 41);
 width: 100%;
+height:30em;
 content: inherit;
 color: white;
 }  
@@ -193,15 +223,14 @@ color: white;
     margin-inline: auto;
     max-width: fit-content;
 }
-.section4 > div{
+.membership{
     display: flex;
-    margin-left: 15%;
-    margin-right: 5%;
 }
 .section4 > button{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 2em;
     background-color: rgb(195, 113, 255);
     padding: 1.2em;
     border: none;
