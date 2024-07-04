@@ -1,0 +1,53 @@
+:root{
+    --footer-color: rgb(7,22,41);
+    --pink-color:rgb(255, 101, 101);
+    --whitecolor:rgb(255, 255, 255);
+}
+*{
+    padding: auto;
+    margin: auto;
+}
+body{
+    background-image: url("/headphones/images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+}
+header{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 15em;
+}
+.icon > img{
+    max-width: 180px;
+    max-height: 180px;
+}
+nav, ul, li{
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    
+}
+.section_01{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20em;
+    max-width: 50%;
+    color: var(--whitecolor);
+}
+.callbutton > button{
+    background-color: var(--pink-color);
+    border: none;
+    border-radius: 50px;
+    color: var(--whitecolor);
+    font-weight: bolder;
+    padding: 1em;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
