@@ -33,7 +33,6 @@ nav, ul, li{
 }
 
 /* section_01 starts here */
-
 .section_01{
     display: block;
     align-items: center;
@@ -41,6 +40,19 @@ nav, ul, li{
     margin-top: 20em;
     max-width: 50%;
     color: var(--whitecolor);
+}
+.section-title > h2{
+    font-size: 32px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.section-title > p{
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .callbutton > button{
     background-color: var(--pink-color);
@@ -55,10 +67,34 @@ nav, ul, li{
     align-items: center;
     margin-top: 3.5em;
 }
+.sectionbuttom{
+    margin-top: 10%;
+}
+.sectionbuttom > p{
+    line-height: 1.5em;
+    word-spacing: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Section_02 Start here ...*/
 
 .section_02{
-    margin-top: 20%;
+    margin-top: 10%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.whatwedoH{
+    display: block;
+    max-width: 50%;
+    align-items:center ;
+    justify-content: center;
+}
+.whatwedoH > h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
