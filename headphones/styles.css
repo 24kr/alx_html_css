@@ -31,6 +31,9 @@ nav, ul, li{
     gap: 1.5em;
     
 }
+
+/* section_01 starts here */
+
 .section_01{
     display: block;
     align-items: center;
@@ -50,4 +53,12 @@ nav, ul, li{
     justify-content: center;
     display: flex;
     align-items: center;
+    margin-top: 3.5em;
+}
+
+
+/* Section_02 Start here ...*/
+
+.section_02{
+    margin-top: 20%;
 }
