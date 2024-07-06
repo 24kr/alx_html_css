@@ -98,3 +98,9 @@ nav, ul, li{
     align-items: center;
     justify-content: center;
 }
+.whatwedoB{
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    gap: 2em;
+    grid-auto-rows: minmax(100px, auto);
+}
