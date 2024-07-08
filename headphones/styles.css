@@ -204,8 +204,19 @@ textarea {
 
 footer{
     background-color: var(--footer-color);
+    max-height: 25vh;
 }
-.footer-icon >.socialmedia{
-    background-color: antiquewhite;
+.logo_icon > img{
+    max-width: 150px;
+    max-height: 100px;
+    border-radius: 50px;
+}
+.footer-icon{
+    display: flex;
+    gap: 30%;
+}
+.socialmedia>i{
+    background-color: var(--whitecolor);
+    padding: 1em;
 
 }
