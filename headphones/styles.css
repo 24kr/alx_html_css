@@ -99,8 +99,94 @@ nav, ul, li{
     justify-content: center;
 }
 .whatwedoB{
-    display: grid;
-    grid-template-columns: repeat(1,3fr);
+    display: flex;
+    max-width: inherit;
+    max-width: 80%;
     gap: 2em;
-    grid-auto-rows: minmax(100px, auto);
+}
+.layer1{
+    
+}
+
+/* this is where section_03 starts */
+
+.section_03{
+    margin-top: 15%;
+    background-image: url("/headphones/images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    color: var(--whitecolor);
+}
+.resultop{
+    max-width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+.resultop > h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ma
+}
+.resultper{
+    display: flex;
+    max-width: 80%;
+}
+.pentagone{
+    max-width: inherit;
+}
+.resultper > .pentagone > img{
+    max-width: 200px;
+    max-height: 200px;
+
+}
+
+/* Section_04 starts here .. */
+
+form {
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+.feedback-input {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #8f8d8d4b;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    width: 50%;
+    background:var(--pink-color);
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+/* footer starts here ... */
+
+footer{
+    background-color: var(--footer-color);
 }
