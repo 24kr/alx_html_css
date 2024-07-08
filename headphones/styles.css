@@ -1,3 +1,5 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 :root{
     --footer-color: rgb(7,22,41);
     --pink-color:rgb(255, 101, 101);
@@ -125,7 +127,6 @@ nav, ul, li{
     display: flex;
     justify-content: center;
     align-items: center;
-    ma
 }
 .resultper{
     display: flex;
@@ -133,11 +134,25 @@ nav, ul, li{
 }
 .pentagone{
     max-width: inherit;
+    margin-top: 20%;
 }
 .resultper > .pentagone > img{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 190px;
+    max-height: 190px;
 
+}
+.resultper>.pentagone > div{
+    margin-top: -7.5em;
+    line-height: 3em;
+}
+.pentagone>div>h1,p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.pentagone>div>h1{
+    font-size: 46px;
+    font-weight: bold;
 }
 
 /* Section_04 starts here .. */
@@ -189,4 +204,8 @@ textarea {
 
 footer{
     background-color: var(--footer-color);
+}
+.footer-icon >.socialmedia{
+    background-color: antiquewhite;
+
 }
