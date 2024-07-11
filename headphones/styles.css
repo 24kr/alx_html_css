@@ -1,5 +1,104 @@
 @import url('/font-awesome-4.6.3/css/font-awesome.min.css');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+  font-family: 'holberton_school-icon';
+  src:  url('../fonts/holberton_school-icon.eot?sq4eq4');
+  src:  url('../fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('../fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+    url('../fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+    url('../fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'holberton_school-icon' !important;
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-arrow_1:before {
+  content: "\e900";
+}
+.holberton_school-icon-arrow_2:before {
+  content: "\e901";
+}
+.holberton_school-icon-arrow_3:before {
+  content: "\e902";
+}
+.holberton_school-icon-arrow_4:before {
+  content: "\e903";
+}
+.holberton_school-icon-arrow_5:before {
+  content: "\e904";
+}
+.holberton_school-icon-check:before {
+  content: "\e905";
+}
+.holberton_school-icon-ic_bag:before {
+  content: "\e906";
+}
+.holberton_school-icon-ic_cart:before {
+  content: "\e907";
+}
+.holberton_school-icon-ic_facebook:before {
+  content: "\e908";
+}
+.holberton_school-icon-ic_hearing:before {
+  content: "\e909";
+}
+.holberton_school-icon-ic_instagram:before {
+  content: "\e90a";
+}
+.holberton_school-icon-ic_laptop:before {
+  content: "\e90b";
+}
+.holberton_school-icon-ic_money:before {
+  content: "\e90c";
+}
+.holberton_school-icon-ic_music:before {
+  content: "\e90d";
+}
+.holberton_school-icon-ic_sound:before {
+  content: "\e90e";
+}
+.holberton_school-icon-ic_twitter:before {
+  content: "\e90f";
+}
+.holberton_school-icon-ic_video:before {
+  content: "\e910";
+}
+.holberton_school-icon-menu:before {
+  content: "\e911";
+}
+.holberton_school-icon-search_1:before {
+  content: "\e912";
+}
+.holberton_school-icon-search_2:before {
+  content: "\e913";
+}
+.holberton_school-icon-star:before {
+  content: "\e914";
+}
+.layer> .icon> span{
+    color: var(--pink-color);
+    font-size: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 :root{
     --footer-color: rgb(7,22,41);
     --pink-color:rgb(255, 101, 101);
@@ -39,6 +138,10 @@ ul > li > a{
     text-decoration: none;
     font-size: 15px;
     margin-left: 1em;
+    transition-duration: 0.25s;
+}
+a:hover{
+    color: var(--pink-color);
 }
 
 /* section_01 starts here */
@@ -133,6 +236,7 @@ ul > li > a{
     background-image: url("/headphones/images/headphones_hero_2.jpg");
     background-repeat: no-repeat;
     color: var(--whitecolor);
+    height: 100vh;
 }
 .resultop{
     text-align: center;
@@ -207,7 +311,7 @@ form > h2{
 }
 ::placeholder{
     font-weight:600;
-    color: rgba(0, 0, 0, 0.822);
+    color: rgba(0, 0, 0, 0.603);
     font-size: 14px;
 }
 textarea {
@@ -238,7 +342,11 @@ textarea {
 
 footer{
     background-color: var(--footer-color);
-    max-height: 25vh;
+    height: 30vh;
+    margin-top: 10%;
+}
+.logo_icon, .socialmedia{
+    margin-top:5% ;
 }
 .logo_icon > img{
     max-width: 150px;
@@ -252,7 +360,11 @@ footer{
     background-color: var(--whitecolor);
     padding: 0.5em; 
     border-radius: 50px;
-
+    margin-left: 1.5em;
+}
+.copyright{
+    margin-top: 5%;
+    color: rgba(100, 100, 100, 0.5);
 }
 
 /*@media query for tablets (max width: 768px)*/
