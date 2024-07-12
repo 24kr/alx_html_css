@@ -105,11 +105,11 @@
     padding: auto;
     margin: auto;
 }
-body{
+.section_01{
     background-image: url("/headphones/images/headphones_hero_1.jpg");
     background-repeat: no-repeat;
     font-family: source sans Pro;
-    max-width: 1000ch;
+    max-width: 1000px;
 }
 header{
     max-width: 90%;
@@ -143,14 +143,7 @@ a:hover{
 }
 
 /* section_01 starts here */
-.section_01{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20em;
-    max-width: 50%;
-    color: var(--whitecolor);
-}
+ 
 .section-title > h2{
     font-size: 32px;
     font-weight: bold;
@@ -371,8 +364,11 @@ footer{
 }
 
 /*@media query for tablets (max width: 768px)*/
-@media (main-width:481) and (max-width:768) {
+@media (main-width:481) and (max-width:1366) {
   body{
     background-color: aqua;
+  }
+  header{
+    display: none;
   }
 }
