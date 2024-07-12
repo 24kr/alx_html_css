@@ -112,6 +112,7 @@ body{
     background-image: url("/headphones/images/headphones_hero_1.jpg");
     background-repeat: no-repeat;
     font-family: source sans Pro;
+    max-width: 1000ch;
 }
 header{
     max-width: 90%;
@@ -238,16 +239,18 @@ a:hover{
     color: var(--whitecolor);
     height: 100vh;
 }
-.resultop{
+.section> p,h2{
     text-align: center;
     align-items: center;
     max-width: 80ch;
     justify-content: center;
+    margin-top: 5%;
 }
-.resultop > h2{
+article > h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2e;
 }
 .resultper{
     display: flex;
