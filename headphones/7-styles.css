@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* import font */
+@font-face {
+    font-family: 'holberton_school-icon';
+    src: url('../fonts/holberton_school-icon.eot?sq4eq4');
+    src: url('../fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+        url('../fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+        url('../fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+        url('../fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    speak-as: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-arrow_1:before {
+    content: "\e900";
+}
+
+.holberton_school-icon-arrow_2:before {
+    content: "\e901";
+}
+
+.holberton_school-icon-arrow_3:before {
+    content: "\e902";
+}
+
+.holberton_school-icon-arrow_4:before {
+    content: "\e903";
+}
+
+.holberton_school-icon-arrow_5:before {
+    content: "\e904";
+}
+
+.holberton_school-icon-check:before {
+    content: "\e905";
+}
+
+.holberton_school-icon-ic_bag:before {
+    content: "\e906";
+}
+
+.holberton_school-icon-ic_cart:before {
+    content: "\e907";
+}
+
+.holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+}
+
+.holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+}
+
+.holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+}
+
+.holberton_school-icon-ic_laptop:before {
+    content: "\e90b";
+}
+
+.holberton_school-icon-ic_money:before {
+    content: "\e90c";
+}
+
+.holberton_school-icon-ic_music:before {
+    content: "\e90d";
+}
+
+.holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+}
+
+.holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+}
+
+.holberton_school-icon-ic_video:before {
+    content: "\e910";
+}
+
+.holberton_school-icon-menu:before {
+    content: "\e911";
+}
+
+.holberton_school-icon-search_1:before {
+    content: "\e912";
+}
+
+.holberton_school-icon-search_2:before {
+    content: "\e913";
+}
+
+.holberton_school-icon-star:before {
+    content: "\e914";
+}
+
+.layer>.icon>span {
+    color: var(--pink-color);
+    font-size: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+:root {
+    --footer-color: rgb(7, 22, 41);
+    --pink-color: rgb(255, 101, 101);
+    --whitecolor: rgb(255, 255, 255);
+    --fontfamily: source sans Pro;
+}
+
+* {
+    padding: auto;
+    margin: auto;
+}
+
+body {
+    font-family: var(--fontfamily);
+    max-width: 1000px;
+}
+
+.section_01 {
+    background-image: url("/headphones/images/headphones_hero_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: inherit;
+    /* height: 100vh; */
+    margin-top: 0%;
+}
+
+header {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 15em;
+}
+
+.icon>img {
+    max-width: 180px;
+    max-height: 180px;
+}
+
+nav,
+ul,
+li {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+
+}
+
+ul>li>a {
+    color: var(--whitecolor);
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 1em;
+    transition-duration: 0.25s;
+}
+
+a:hover {
+    color: var(--pink-color);
+    opacity: 0.9;
+}
+
+/* section_01 starts here */
+.section-title {
+    padding-top: 20%;
+    font-family: var(--fontfamily);
+    color: var(--whitecolor);
+}
+
+.section-title>h2 {
+    font-size: 32px;
+    font-weight: bold;
+    align-items: center;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.section-title>p {
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.callbutton>button {
+    background-color: var(--pink-color);
+    border: none;
+    border-radius: 50px;
+    color: var(--whitecolor);
+    font-weight: bolder;
+    padding: 1em;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 3.5em;
+}
+
+.sectionbuttom {
+    color: var(--whitecolor);
+    margin-top: 5%;
+}
+
+.sectionbuttom>p {
+    text-align: center;
+    line-height: 1.5em;
+    word-spacing: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Section_02 Start here ...*/
+
+.section_02 {
+    margin-top: 15%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--footer-color);
+    position: relative;
+}
+
+.whatwedoH {
+    display: block;
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatwedoH>h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.whatwedoH>p {
+    margin-bottom: 8%;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.whatwedoB {
+    display: flex;
+    max-width: inherit;
+    max-width: 80%;
+    gap: 2em;
+}
+
+.layer>p {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.layer>h3 {
+    text-align: center;
+    line-height: 2em;
+}
+
+/* this is where section_03 starts */
+
+.section_03 {
+    background-image: url("/headphones/images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    margin-top: 7.5%;
+    background-size: cover;
+    color: var(--whitecolor);
+    height: 100vh;
+    background-position: center;
+}
+
+.resultop {
+    text-align: center;
+    max-width: 80ch;
+    padding-top: 12%;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultop>p {
+    padding-top: 7.5%;
+    line-height: 30px;
+}
+
+.resultper {
+    display: flex;
+    max-width: 80%;
+    column-gap: 3em;
+}
+
+.pentagone {
+    max-width: inherit;
+    margin-top: 5%;
+    position: inherit;
+}
+
+.resultper>.pentagone>img {
+    max-width: 170px;
+    max-height: 170px;
+
+}
+
+.resultper>.pentagone>div {
+    margin-top: -7.5em;
+    line-height: 3em;
+}
+
+.pentagone>div>h1,
+p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pentagone>div>h1 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+/* Section_04 starts here .. */
+.section_04 {
+    margin-top: 10%;
+    position: relative;
+}
+
+form {
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+form>h2 {
+    justify-content: center;
+    margin-bottom: 2em;
+    font-weight: 600;
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+}
+
+.feedback-input {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #8f8d8da9;
+    transition: all 0.3s;
+    padding: 1em;
+    margin-bottom: 2em;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+::placeholder {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 14px;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    background: var(--pink-color);
+    border-radius: 50px;
+    border: 0;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    width: 162px;
+    height: 44px;
+    font-weight: 700;
+    margin-top: 2em;
+
+}
+
+/* footer starts here ... */
+
+footer {
+    background-color: var(--footer-color);
+    height: 30vh;
+    margin-top: 10%;
+    position: relative;
+}
+
+.logo_icon,
+.socialmedia {
+    margin-top: 5%;
+}
+
+.logo_icon>img {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 30%;
+}
+
+.socialmedia>i {
+    background-color: var(--whitecolor);
+    padding: 0.5em;
+    border-radius: 50px;
+    margin-left: 1.5em;
+}
+
+.copyright {
+    margin-top: 5%;
+    color: rgba(158, 158, 158, 0.548);
+}
+
+/*@media query for tablets (max width: 768px)*/
