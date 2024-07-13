@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+/* import font */
+@media (min-width: 768px) {
+    .nav {
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    .menu li {
+        float: left;
+    }
+
+    .menu a:hover {
+        background-color: transparent;
+        color: var(--gray);
+
+    }
+
+    .hamb {
+        display: none;
+    }
+}
