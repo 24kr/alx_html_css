@@ -100,16 +100,23 @@
     --footer-color: rgb(7,22,41);
     --pink-color:rgb(255, 101, 101);
     --whitecolor:rgb(255, 255, 255);
+    --fontfamily:source sans Pro;
 }
 *{
     padding: auto;
     margin: auto;
 }
+body{
+  font-family: var(--fontfamily);
+  max-width: 1000px;
+}
 .section_01{
     background-image: url("/headphones/images/headphones_hero_1.jpg");
+    background-position: center;
     background-repeat: no-repeat;
-    font-family: source sans Pro;
-    max-width: 1000px;
+    font-family: inherit;
+    /* height: 100vh; */
+    margin-top: 0%;
 }
 header{
     max-width: 90%;
@@ -140,14 +147,20 @@ ul > li > a{
 }
 a:hover{
     color: var(--pink-color);
+    opacity: 0.9;
 }
 
 /* section_01 starts here */
- 
+.section-title{
+  padding-top: 20%;
+  font-family: var(--fontfamily);
+  color: var(--whitecolor);
+} 
 .section-title > h2{
     font-size: 32px;
     font-weight: bold;
     align-items: center;
+    font-family: inherit;
     display: flex;
     justify-content: center;
 }
@@ -172,7 +185,8 @@ a:hover{
     margin-top: 3.5em;
 }
 .sectionbuttom{
-    margin-top: 10%;
+        color: var(--whitecolor);
+        margin-top: 5%;
 }
 .sectionbuttom > p{
     text-align: center;
@@ -191,6 +205,8 @@ a:hover{
     display: block;
     justify-content: center;
     align-items: center;
+    font-family: var(--footer-color);
+    position: relative;
 }
 .whatwedoH{
     display: block;
@@ -233,6 +249,7 @@ line-height: 1.5em;
     background-size: cover;
     color: var(--whitecolor);
     height: 100vh;
+    background-position: center;
 }
 .resultop{
     text-align: center;
@@ -248,14 +265,16 @@ line-height: 1.5em;
 .resultper{
     display: flex;
     max-width: 80%;
+    column-gap: 3em;
 }
 .pentagone{
     max-width: inherit;
     margin-top: 5%;
+    position:inherit;
 }
 .resultper > .pentagone > img{
-    max-width: 190px;
-    max-height: 190px;
+    max-width: 170px;
+    max-height: 170px;
 
 }
 .resultper>.pentagone > div{
@@ -275,6 +294,7 @@ line-height: 1.5em;
 /* Section_04 starts here .. */
 .section_04{
     margin-top: 10%;
+    position: relative;
 }
 form {
     max-width: 420px;
@@ -340,6 +360,7 @@ footer{
     background-color: var(--footer-color);
     height: 30vh;
     margin-top: 10%;
+    position: relative;
 }
 .logo_icon, .socialmedia{
     margin-top:5% ;
@@ -360,15 +381,7 @@ footer{
 }
 .copyright{
     margin-top: 5%;
-    color: rgba(100, 100, 100, 0.5);
+    color: rgba(158, 158, 158, 0.548);
 }
 
 /*@media query for tablets (max width: 768px)*/
-@media (main-width:481) and (max-width:1366) {
-  body{
-    background-color: aqua;
-  }
-  header{
-    display: none;
-  }
-}
