@@ -117,16 +117,16 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     font-family: inherit;
-    /* height: 100vh; */
+    height: 100vh;
     margin-top: 0%;
 }
 header{
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;
-    gap: 15em;
+    padding-top: 1.5em;
+    gap: 5em;
 }
 .icon > img{
     max-width: 180px;
